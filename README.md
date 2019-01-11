@@ -20,6 +20,8 @@ S'ha fet l'exercici amb totes les especificacions indicades:
  
  * Elements avançats, com ara gràfics SVG, canvas o animacions i transicions.
  
+ S'ha intentat, en tot moment, tenir una linia clara i senzilla de diseny.
+ 
  S'ha validat satisfactoriament el codi:
  
  * HTML
