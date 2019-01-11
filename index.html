@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/main.css" />
+        <title>IES TECNOLÒGIC</title>
+    </head>
+
+    <body>
+        <div id="inici"></div>
+        <div id="embolcall_principal">
+            <header>
+                <div id="logo_svg">
+                    <svg>
+                        <defs>
+                            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#2F4F4F;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#b3c9c9;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+                        <text x="40" y="91">IES-T</text>
+                    </svg>
+                </div>
+                <div id="nom_centre">
+                    <h1>IES TECNOLÒGIC</h1>
+                </div>
+            </header>
+
+            <canvas class="mycanvas">
+            </canvas>           
+            
+            <div id="imatge_edifici">
+            </div>
+
+            <aside>           
+				<nav>
+					
+                    <ul>
+                        <li><a href="#informacio_interes">Informació d'Interés</a></li>
+                        <li><a href="#oferta_educativa">Oferta Educativa</a></li>
+                        <li><a href="#multimedia">Multimedia</a></li>
+                        <li><a href="#projectes">Projectes</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <section>
+				<h2 id="informacio_interes">INFORMACIÓ D'INTERÈS</h2>
+                <article>
+                    <h3>DADES DEL CENTRE – CONTACTE</h3>
+                   		<ul>
+							<li>IES TECNOLÒGIC</li>
+							<li>ADREÇA: C/ Totxo, 15 07420 – sa Pobla Illes Balears</li>
+							<li>CODI DE CENTRE: 07012345</li>
+							<li>CIF: W0712371@</li>
+							<li>TELEFON: 571 25 60 65</li>
+							<li>WEB: www.iestecnologic.cat</li>
+							<li>MAIL: iestecnologic@correu.es</li>
+							<li>HORARI: El centre està obert de dilluns a divendres de 8,00 a 15,00 hores. L’horari d’oficines és de 9,00 a 14,00 hores</li>
+						</ul>
+                    <a href="#inici"><h4>TORNA</h4></a>
+                </article>
+                <article>
+                    <h3>UBICACIÓ</h3>
+                   		<iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24754.31876307775!2d2.9278048313594627!3d39.145388740108515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12970565adda699d%3A0x57999fbdc4fd7b3e!2sCabrera!5e0!3m2!1sca!2ses!4v1547208620316" allowfullscreen></iframe>
+                    <a href="#inici"><h4>TORNA</h4></a>
+                </article>                
+            </section>
+            <section>
+				<h2 id="oferta_educativa">OFERTA EDUCATIVA</h2>
+                <article>
+                    <h3>MODALITATS I MATERIES DE BATXILLERAT</h3>
+                    <p>Hi ha tres modalitats de batxillerat:</p>
+                    <ol>
+                        <li>Ciències i tecnologia</li>
+                        <li>Humanitats i ciències socials</li>
+                        <li>Arts</li>
+                    </ol>
+                    <p><strong>Quines assignatures has de cursar?</strong></p>
+                    <p>Has de cursar totes les matèries comunes, la matèria comuna d'opció de bloc i dues o tres matèries de modalitat, la tercera matèria de modalitat pot ser una matèria d'una altra modalitat o dues matèries específiques.</p>
+                    <p><strong>Matèries comunes:</strong></p>
+
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>Matèria</th>
+                                <th>1r curs</th>
+                                <th>2n curs</th>
+                            </tr>
+                            <tr>
+                                <td>Llengua catalana i literatura</td>
+                                <td class="centrat">X</td>
+                                <td class="centrat">X</td>
+                            </tr>
+                            <tr>
+                                <td>Llengua castellana i literatura</td>
+                                <td class="centrat">X</td>
+                                <td class="centrat">X</td>
+                            </tr>
+                            <tr>
+                                <td>Llengua estrangera</td>
+                                <td class="centrat">X</td>
+                                <td class="centrat">X</td>
+                            </tr>
+                            <tr>
+                                <td>Filosofia</td>
+                                <td class="centrat">X</td>
+                                <td class="centrat"></td>
+                            </tr>
+                            <tr>
+                                <td>Educació física</td>
+                                <td class="centrat">X</td>
+                                <td class="centrat"></td>
+                            </tr>
+                            <tr>
+                                <td>Ciències del món contemporani</td>
+                                <td class="centrat">X</td>
+                                <td class="centrat"></td>
+                            </tr>
+                            <tr>
+                                <td>Història de la filosofia</td>
+                                <td class="centrat"></td>
+                                <td class="centrat">X</td>
+                            </tr>
+                            <tr>
+                                <td>Història</td>
+                                <td class="centrat"></td>
+                                <td class="centrat">X</td>
+                            </tr>
+                            <tr>
+                                <td>Tutoria</td>
+                                <td class="centrat">X</td>
+                                <td class="centrat">X</td>
+                            </tr>
+                            <tr>
+                                <td>Treball de recerca</td>
+                                <td class="centrat">X</td>
+                                <td class="centrat">X</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <p><strong>Matèries de modalitat i específiques:</strong></p>
+
+                    <table id="mat_mod_esp">
+                        <tbody>
+                            <tr>
+                                <th rowspan="2">Modalitat</th>
+                                <th rowspan="2">Ciències i tecnologia</th>
+                                <th colspan="2">Humanitats i ciències socials</th>
+                                <th rowspan="2">Arts</th>
+                            </tr>
+                            <tr>
+                                <th>Humanitats</th>
+                                <th>Ciències Socials</th>
+                            </tr>
+                            <tr>
+                                <td><strong>Matèria comuna d'opció</strong></td>
+                                <td>
+                                    <ul>   
+                                        <li>Matemàtiques I i II</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>   
+                                        <li>Llatí I i II</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>   
+                                        <li>Matemàtiques aplicades a les ciències socials I i II</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>   
+                                        <li>Fonaments de les arts I i II</li>
+                                    </ul></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Matèries de modalitat</strong></td>
+                                <td>
+                                    <ul>   
+                                        <li>Biologia I i II</li>
+                                        <li>Ciències de la terra I i II</li>
+                                        <li>Dibuix tècnic I i II</li>
+                                        <li>Electrotècnia</li>
+                                        <li>Física I i II</li>
+                                        <li>Química I i II</li>
+                                        <li>Tecnologia industrial I i II</li>
+                                    </ul>
+                                </td>
+                                <td colspan="2">
+                                    <ul>
+                                        <li>Economia</li>
+                                        <li>Economia d'empresa  I i II</li>
+                                        <li>Geografia</li>
+                                        <li>Grec I i II</li>
+                                        <li>Història de l'art</li>
+                                        <li>Història del món contemporani</li>
+                                        <li>Literatura castellana</li>
+                                        <li>Literatura catalana</li>
+                                        <li>Literatura universal</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Anàlisi musical I i II</li>
+                                        <li>Anatomia aplicada</li>
+                                        <li>Arts escèniques</li>
+                                        <li>Cultura audiovisual I i II</li>
+                                        <li>Dibuix artístic I i II</li>
+                                        <li>Dibuix tècnic I i II</li>
+                                        <li>Disseny</li>
+                                        <li>Història del món contemporani</li>
+                                        <li>Literatura castellana</li>
+                                        <li>Literatura catalana</li>
+                                        <li>Literatura universal</li>
+                                        <li>Llenguatge i pràctica musical</li>
+                                        <li>Volum</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Matèries específiques</strong></td>
+                                <td colspan="4">
+                                    <ul>
+                                        <li>Una altra matèria de modalitat</li>
+                                        <li>Llengua i cultura occitanes</li>
+                                        <li>Història de la música i la dansa</li>
+                                        <li>Psicologia</li>
+                                        <li>Segona llengua estrangera I i II</li>
+                                        <li>Sociologia</li>
+                                        <li>Tècniques d'expressió graficoplàstica</li>
+                                        <li>Religió</li>
+                                        <li>Estada a l'empresa</li>
+                                        <li>Matèria específica de centre</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="#inici"><h4>TORNA</h4></a>
+                </article>
+                <article>
+                    <h3>CICLES FORMATIUS</h3>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>NIVELL</th>
+                                    <th>CODI</th>
+                                    <th>DENOMINACIÓ</th>
+                                    <th>TÍTOL</th>
+                                    <th>CURRÍCULUM</th>
+                                </tr>
+                                <tr>
+                                    <td class="centrat">GRAU MITJÀ</td>
+                                    <td class="centrat">ADG21</td>
+                                    <td>TÈCNIC EN GESTIÓ ADMINISTRATIVA</td>
+                                    <td class="centrat"><a href="https://drive.google.com/file/d/0B4wf74_7LxPmVUdRVmVMdl9LNEU/view" target="_blank"><img src="imatges/descarrega.png" alt="icone_descarrega"/></a></td>
+                                    <td class="centrat"><a href="https://drive.google.com/file/d/0B4wf74_7LxPmOEpYZGFpbVp1TjQ/view" target="_blank"><img src="imatges/descarrega.png" alt="icone_descarrega"/></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="centrat">GRAU MITJÀ</td>
+                                    <td class="centrat">ELE21</td>
+                                    <td>TÈCNIC EN INSTAL·LACIONS ELÈCTRIQUES I AUTOMÀTIQUES</td>
+                                    <td class="centrat"><a href="https://drive.google.com/file/d/0B4wf74_7LxPmdUdjLU5oZFZ5VTg/view" target="_blank"><img src="imatges/descarrega.png" alt="icone_descarrega"/></a></td>
+                                    <td class="centrat"><a href="https://drive.google.com/file/d/0B4wf74_7LxPmVThEeG9lVkQ3ZGs/view" target="_blank"><img src="imatges/descarrega.png" alt="icone_descarrega"/></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="centrat">GRAU SUPERIOR</td>
+                                    <td class="centrat">AGA31</td>
+                                    <td>TÈCNIC SUPERIOR EN PAISATGISME I MEDI RURAL</td>
+                                    <td class="centrat"><a href="https://drive.google.com/file/d/0B4wf74_7LxPmelMwb3ozTEwtU28/view" target="_blank"><img src="imatges/descarrega.png" alt="icone_descarrega"/></a></td>
+                                    <td class="centrat"><a href="https://drive.google.com/file/d/0B4wf74_7LxPmTktTUGdaRXJYWU0/view" target="_blank"><img src="imatges/descarrega.png" alt="icone_descarrega"/></a></td>
+                                </tr>
+                        </tbody>
+                    </table>                   		
+                    <a href="#inici"><h4>TORNA</h4></a>
+                </article>
+
+            </section>           
+            <section>
+				<h2 id="multimedia">MULTIMEDIA</h2>
+                <article>
+                    <h3>AUDIO</h3>
+                   		<audio controls>
+                            <source src="so/Pilots_Of_Stone.mp3" type="audio/mpeg">
+                        </audio>
+                        <br>
+                        <br>
+                        <details>
+                            <summary>Llicència Creative Commons Attribution</summary>
+                            <p>La cançó Pilots Of Stone de l’artista Audionautix te la llicència Creative Commons Attribution (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">https://creativecommons.org/licenses/by/4.0/)</a></p>
+                            <p>Artista: <a href="http://audionautix.com" target="_blank">http://audionautix.com</a>/</p>
+                        </details>
+                    <a href="#inici"><h4>TORNA</h4></a>
+                </article>
+                <article>
+                    <h3>VIDEO</h3>
+                        <video controls>
+                          <source src="video/ascensors.mp4" type="video/mp4">
+
+                        </video>
+                        <br>
+                        <br>
+                        <details>
+                            <summary>CC0 License</summary>
+                            <ul>
+                                <li>Free for personal and commercial use</li>
+                                <li>No attribution required</li>
+                            </ul>
+                        </details>
+                    <a href="#inici"><h4>TORNA</h4></a>
+                </article>               
+            </section>
+            <section>
+				<h2 id="projectes">PROJECTES</h2>
+                <article>
+                    <h3>TIC</h3>
+                    <div class="animation1"></div>
+                    <div class="animation2"></div>
+                    <p>El NAS SYNOLOGY DS918+ actua com a controlador de domini, servidor DNS i servidor de fitxers. Per tot això, s’ha creat el domini iestecnologic.local:</p>
+                    <img src="imatges/synology.png" alt="synology"/>
+                    <p>En relació a la xarxa del centre, aquesta es gestiona mitjançant un router mikrotik CCR1009-7G-1C, el qual, a més de fer d’enrutador cap internet i entre les diferents VLANS creades, actua com a servidor DHCP:</p>
+                    <img src="imatges/xarxa.png" alt="xarxa"/>
+                    <a href="#inici"><h4>TORNA</h4></a>
+                </article>
+                <article>
+                    <h3>EMPRESA SIMULADA</h3>
+                    <p>TECNOLOGIC STORE SLS és una empresa simulada amb finalitats educatives, integrada dins la xarxa d’empreses simulades, creada per la Fundació INFORM.</p>
+                    <p>La finalitat d’aquesta xarxa és contribuir en la formació dels alumnes dels cicles formatius d’administració (i d’altres ensenyaments), mitjançant la simulació de totes aquelles operacions econòmiques que realitza una empresa real (compres, vendes, contractació de serveis, pagaments, cobraments, contractació laboral, nòmines, liquidació d’impostos, liquidació de càrregues socials, gestió de la tresoreria, etc.). Així, l’alumnat pot practicar en cadascun dels circuits administratius que es generen.</p>
+                    <p>Per tot això, cal tenir present que TECNOLOGIC STORE SLS no té personalitat jurídica, no existeix com a empresa, els productes comercialitzats son virtuals, i la documentació generada no té cap validesa legal.</p>
+                    <a href="#inici"><h4>TORNA</h4></a>
+                </article>               
+            </section>            
+            <canvas class="mycanvas">
+            </canvas>
+            
+            <footer>
+                <p><strong>L'IES TECNOLÒGIC no existeix. Qualsevol similitud amb la realitat és pura coincidència</strong>
+                <p>HTML i CSS elaborats per Gabriel Alzina Alomar com a tasca del mòdul formatiu LLENGUATGE DE MARQUES I SISTEMES DE GESTIÓ DE LA INFORMACIÓ del CFGS ADMINISTRACIÓ DE SISTEMES INFORMATICS EN XARXA</p>
+               
+            </footer>
+        </div>
+
+    
+    </body>
+</html>
